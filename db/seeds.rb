@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+House.create!(name: "Hufflepuff", points: 0)
+House.create!(name: "Ravenclaw", points: 0)
+House.create!(name: "Slytherin", points: 0)
+House.create!(name: "Gryffindor", points: 0)
